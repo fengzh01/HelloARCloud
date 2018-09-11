@@ -1,0 +1,183 @@
+首次提交项目到github中
+1.git init
+2.git commit -m "first commit"
+3.git remote add origin https://github.com/fengzh01/HelloARCloud.git
+4.git push -u origin master (ERROR)
+5.git add .
+6.git commit -m "HelloAR"
+7.git push -u origin master
+
+user:~ user$ cd Documents/AR项目201809/HelloARCloudTest01
+user:HelloARCloudTest01 user$ git init
+Initialized empty Git repository in /Users/user/Documents/AR项目201809/HelloARCloudTest01/.git/
+user:HelloARCloudTest01 user$ git commit -m "first commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	.gitignore
+	.idea/
+	app/
+	build.gradle
+	gradle.properties
+	gradle/
+	gradlew
+	gradlew.bat
+	helloar/
+	settings.gradle
+
+nothing added to commit but untracked files present
+user:HelloARCloudTest01 user$ git remote add origin https://github.com/fengzh01/HelloARCloud.git
+user:HelloARCloudTest01 user$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/fengzh01/HelloARCloud.git'
+user:HelloARCloudTest01 user$ git add .
+user:HelloARCloudTest01 user$ git commit -m "HelloAR"
+[master (root-commit) f2a8a84] HelloAR
+ 128 files changed, 1066 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .idea/caches/build_file_checksums.ser
+ create mode 100644 .idea/codeStyles/Project.xml
+ create mode 100644 .idea/gradle.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/runConfigurations.xml
+ create mode 100644 app/.gitignore
+ create mode 100644 app/build.gradle
+ create mode 100644 app/proguard-rules.pro
+ create mode 100644 app/src/main/AndroidManifest.xml
+ create mode 100644 app/src/main/java/com/demo/fzh/helloarcloudtest01/MainActivity.java
+ create mode 100644 app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+ create mode 100644 app/src/main/res/drawable/ic_launcher_background.xml
+ create mode 100644 app/src/main/res/layout/activity_main.xml
+ create mode 100644 app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+ create mode 100644 app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png
+ create mode 100644 app/src/main/res/values/colors.xml
+ create mode 100644 app/src/main/res/values/strings.xml
+ create mode 100644 app/src/main/res/values/styles.xml
+ create mode 100644 build.gradle
+ create mode 100644 gradle.properties
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100755 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 helloar/.gitignore
+ create mode 100644 helloar/build.gradle
+ create mode 100644 helloar/libs/EasyAR.jar
+ create mode 100644 helloar/libs/unity-classes.jar
+ create mode 100644 helloar/proguard-rules.pro
+ create mode 100644 helloar/src/main/AndroidManifest.xml
+ create mode 100644 helloar/src/main/assets/bin/Data/17d5fa30757a4424da3c57bc5a4fa782
+ create mode 100644 helloar/src/main/assets/bin/Data/903c3feafd2738f46a0feab0a25f690e
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/Assembly-CSharp.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/EasyAR.Unity.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/Mono.Security.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/System.Core.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/System.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.AIModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.ARModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.AccessibilityModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.AssetBundleModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.AudioModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.ClothModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.CoreModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.CrashReportingModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.DirectorModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.GameCenterModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.GridModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.ImageConversionModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.InputModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.Networking.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.ParticlesLegacyModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.PerformanceReportingModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.ScreenCaptureModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.SpatialTracking.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.SpriteMaskModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.StandardEvents.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.StyleSheetsModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.TerrainModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.Timeline.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UI.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UIElementsModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UIModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UNETModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UnityConnectModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.VRModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.VehiclesModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.VideoModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.WebModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.WindModule.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/UnityEngine.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Managed/mscorlib.dll
+ create mode 100644 helloar/src/main/assets/bin/Data/Resources/unity_builtin_extra
+ create mode 100644 helloar/src/main/assets/bin/Data/boot.config
+ create mode 100644 helloar/src/main/assets/bin/Data/c989d059b23f4444e8c1c16894d85a3d
+ create mode 100644 helloar/src/main/assets/bin/Data/e05006386be54274eabc90c1a7b6726d
+ create mode 100644 helloar/src/main/assets/bin/Data/globalgamemanagers
+ create mode 100644 helloar/src/main/assets/bin/Data/globalgamemanagers.assets
+ create mode 100644 helloar/src/main/assets/bin/Data/level0
+ create mode 100644 helloar/src/main/assets/bin/Data/sharedassets0.assets
+ create mode 100644 helloar/src/main/assets/bin/Data/unity default resources
+ create mode 100644 helloar/src/main/java/com/test/compn/UnityPlayerActivity.java
+ create mode 100644 helloar/src/main/java/com/test/compn/UnityPlayerNativeActivity.java
+ create mode 100644 helloar/src/main/java/com/test/compn/UnityPlayerProxyActivity.java
+ create mode 100644 helloar/src/main/jniLibs/armeabi-v7a/libEasyAR.so
+ create mode 100644 helloar/src/main/jniLibs/armeabi-v7a/libEasyARUnity.so
+ create mode 100644 helloar/src/main/jniLibs/armeabi-v7a/libmain.so
+ create mode 100644 helloar/src/main/jniLibs/armeabi-v7a/libmono.so
+ create mode 100644 helloar/src/main/jniLibs/armeabi-v7a/libunity.so
+ create mode 100644 helloar/src/main/res/drawable-hdpi/app_icon.png
+ create mode 100644 helloar/src/main/res/drawable-ldpi/app_icon.png
+ create mode 100644 helloar/src/main/res/drawable-mdpi/app_icon.png
+ create mode 100644 helloar/src/main/res/drawable-xhdpi/app_banner.png
+ create mode 100644 helloar/src/main/res/drawable-xhdpi/app_icon.png
+ create mode 100644 helloar/src/main/res/drawable-xxhdpi/app_icon.png
+ create mode 100644 helloar/src/main/res/drawable-xxxhdpi/app_icon.png
+ create mode 100644 helloar/src/main/res/values-v14/styles.xml
+ create mode 100644 helloar/src/main/res/values-v21/styles.xml
+ create mode 100644 helloar/src/main/res/values/strings.xml
+ create mode 100644 helloar/src/main/res/values/styles.xml
+ create mode 100644 settings.gradle
+user:HelloARCloudTest01 user$ git push -u origin master
+Username for 'https://github.com': fengzh01
+Password for 'https://fengzh01@github.com': 
+Counting objects: 176, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (149/149), done.
+Writing objects: 100% (176/176), 17.56 MiB | 2.26 MiB/s, done.
+Total 176 (delta 18), reused 0 (delta 0)
+remote: Resolving deltas: 100% (18/18), done.
+remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/fengzh01/HelloARCloud/pull/new/master
+remote: 
+To https://github.com/fengzh01/HelloARCloud.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+user:HelloARCloudTest01 user$ 
