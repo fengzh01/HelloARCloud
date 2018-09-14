@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="cn.gov.lottery">
+    package="cn.easyar.lottery.test">
 
     <application
         tools:replace="android:icon"
@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="cn.easyar.lottery.test.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,18 +19,6 @@
             </intent-filter>
         </activity>
 
-        <meta-data
-            android:name="unity.build-id"
-            android:value="54aa7fdb-c8b5-4447-980a-0e3932dc1d4e" />
-        <meta-data
-            android:name="unity.splash-mode"
-            android:value="0" />
-        <meta-data
-            android:name="unity.splash-enable"
-            android:value="True" />
-        <meta-data
-            android:name="android.max_aspect"
-            android:value="2.1" />
     </application>
 
 </manifest>
